@@ -5,15 +5,15 @@ var open = require('open');
 var port = 3000;
 var app = express();
 
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
-app.listen(port, function(err){
+app.listen(port, function(err) {
   if (err) {
     console.log(err);
   } else {
-    open('http://localhost:' + port);
     console.log('Listening on port #' + port + '...');
+    open('http://localhost:' + port);
   }
 });
