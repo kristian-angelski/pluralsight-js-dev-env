@@ -13,7 +13,6 @@ app.listen(port, function(err) {
   if (err) {
     console.log(err);
   } else {
-    console.log('Listening on port #' + port + '...');
     open('http://localhost:' + port);
   }
 });
