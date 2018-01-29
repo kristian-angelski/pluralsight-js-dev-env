@@ -4,7 +4,7 @@
   "description": "JavaScript development environment Pluralsight course by Cory House",
   "scripts": {
     "prestart":"node buildScripts/startMessage.js",
-    "start": "node buildScripts/epxress.js"
+    "start": "node buildScripts/express.js"
   },
   "author": "Kristian Angelski",
   "license": "n/a",
