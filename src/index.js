@@ -1,3 +1,5 @@
+import './index.css';
+
 import numeral from 'numeral';
 
 const bookValue = numeral(500).format('$0,0.00');
